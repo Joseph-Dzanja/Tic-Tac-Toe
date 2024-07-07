@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="header">
+        <div class="player-names">
+            <h2 class="player1">Player <span class="pulang">X</span></h2>
+            <h2 class="player2">Player <span class="pulang">O</span></h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="square-container">
+            <div class="row">
+                <div class="square t00"><p class="char"></p></div>
+                <div class="square t01"><p class="char"></p></div>
+                <div class="square t02"><p class="char"></p></div>
+            </div>
+            <div class="row">
+                <div class="square t10"><p class="char"></p></div>
+                <div class="square t11"><p class="char"></p></div>
+                <div class="square t12"><p class="char"></p></div>
+            </div>
+            <div class="row">
+                <div class="square t20"><p class="char"></p></div>
+                <div class="square t21"><p class="char"></p></div>
+                <div class="square t22"><p class="char"></p></div>
+            </div>
+        </div>
+    </div>
+    <div class="round">
+        <h2 id="result"></h2>
+    </div>
+    <div class="round">
+        <h2>Round</h2>
+    </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
