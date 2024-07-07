@@ -1,0 +1,78 @@
+*,*::after,*::before{
+    margin: 0;
+    background-color: whitesmoke;
+    
+}
+
+@font-face {
+    font-family: 'pulang';
+    src: url('./pulang/Pulang.ttf') format(truetype);
+}
+
+.header{
+    margin-top: 5em;
+}
+
+.player-names{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.player2{
+    margin-left: 8em;
+}
+
+.container{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.square-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+
+.row{
+    height: 100%;
+    display: flex;
+}
+
+.square{
+    width: 100%;
+    outline: 1px solid black;
+    border-radius: 12px;
+    margin: .5em;
+    font-family: 'pulang';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pulang{
+    font-family: 'pulang';
+}
+
+.char{
+    font-size: 3rem;
+}
+
+.square:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.round{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 470px){
+    .player2{
+        margin-left: 4em;
+    }
+}
